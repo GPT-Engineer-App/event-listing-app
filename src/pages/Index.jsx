@@ -48,7 +48,6 @@ const Index = () => {
   const editEvent = (id) => {
     const event = events.find((event) => event.id === id);
     setNewEvent({ name: event.name, description: event.description });
-    deleteEvent(id);
   };
 
   return (
